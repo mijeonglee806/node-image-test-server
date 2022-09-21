@@ -1,0 +1,43 @@
+{
+  "name": "rest-server",
+  "version": "1.0.0",
+  "description": "Server side of restaurant app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mijeonglee806/rest-server.git"
+  },
+  "author": "Mijeong Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mijeonglee806/rest-server/issues"
+  },
+  "homepage": "https://github.com/mijeonglee806/rest-server#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.19",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "password-hash": "^1.2.2",
+    "sharp": "^0.31.0",
+    "uuid": "^3.4.0"
+  }
+}
